@@ -1,7 +1,7 @@
 import pytest
 
-from rtkaiagents.factories.graphs_factory import GraphsFactory
-from rtkaiagents.models.agent_models import EdgeConfig, GraphConfig, NodeConfig
+from yaga.factories.graphs_factory import GraphsFactory
+from yaga.models.agent_models import EdgeConfig, GraphConfig, NodeConfig
 
 
 @pytest.mark.asyncio

@@ -1,7 +1,7 @@
 import pytest
 
-from rtkaiagents.factories.models_factory import ModelsFactory
-from rtkaiagents.models.agent_models import AgentConfig, InlinePromptConfig, ModelConfig, PromptProviderConfig
+from yaga.factories.models_factory import ModelsFactory
+from yaga.models.agent_models import AgentConfig, InlinePromptConfig, ModelConfig, PromptProviderConfig
 
 
 @pytest.mark.asyncio

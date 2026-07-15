@@ -5,7 +5,7 @@ from typing import Any
 
 from langgraph.graph import END, StateGraph
 
-from rtkaiagents.models import GraphConfig, GraphState
+from yaga.models import GraphConfig, GraphState
 
 
 class _AttrDict(dict):

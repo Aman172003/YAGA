@@ -1,6 +1,6 @@
 import logging
 
-from rtkaiagents.logging import get_logger, log_event
+from yaga.logging import get_logger, log_event
 
 
 def test_logging_helpers_emit_structured_records() -> None:

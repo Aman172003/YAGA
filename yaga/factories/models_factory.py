@@ -3,7 +3,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Any
 
-from rtkaiagents.models import AgentConfig, ModelConfig
+from yaga.models import AgentConfig, ModelConfig
 
 
 class BaseModelProvider:

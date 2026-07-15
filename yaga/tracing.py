@@ -5,10 +5,10 @@ from contextlib import contextmanager
 from contextvars import ContextVar
 from typing import Any, Iterator
 
-from rtkaiagents.logging import get_logger, log_event
+from yaga.logging import get_logger, log_event
 
 logger = get_logger(__name__)
-_trace_id: ContextVar[str | None] = ContextVar("rtkaiagents.trace_id", default=None)
+_trace_id: ContextVar[str | None] = ContextVar("yaga.trace_id", default=None)
 
 
 def get_trace_id() -> str | None:

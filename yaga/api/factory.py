@@ -12,8 +12,8 @@ from fastapi import FastAPI, Request
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 
-from rtkaiagents.service import AgentService
-from rtkaiagents.tracing import get_trace_id, trace_scope
+from yaga.service import AgentService
+from yaga.tracing import get_trace_id, trace_scope
 from .config import AppSettings
 
 

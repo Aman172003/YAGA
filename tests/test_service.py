@@ -2,8 +2,8 @@ import asyncio
 
 import pytest
 
-from rtkaiagents import AgentService, AIAgentService
-from rtkaiagents.service import AIAgentService as LegacyAIAgentService
+from yaga import AgentService, AIAgentService
+from yaga.service import AIAgentService as LegacyAIAgentService
 
 
 def test_service_exports_use_canonical_and_legacy_names() -> None:

@@ -1,4 +1,4 @@
-from rtkaiagents.tracing import get_trace_id, trace_scope, trace_event
+from yaga.tracing import get_trace_id, trace_scope, trace_event
 
 
 def test_trace_scope_registers_and_clears_trace_id() -> None:

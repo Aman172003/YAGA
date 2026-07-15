@@ -1,6 +1,6 @@
 import pytest
 
-from rtkaiagents.factories.persistence_factory import PersistenceFactory
+from yaga.factories.persistence_factory import PersistenceFactory
 
 
 @pytest.mark.asyncio

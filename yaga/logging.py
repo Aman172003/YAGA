@@ -5,7 +5,7 @@ import sys
 from typing import Any
 
 
-def get_logger(name: str = "rtkaiagents") -> logging.Logger:
+def get_logger(name: str = "yaga") -> logging.Logger:
     logger = logging.getLogger(name)
     if not logger.handlers:
         handler = logging.StreamHandler(sys.stdout)

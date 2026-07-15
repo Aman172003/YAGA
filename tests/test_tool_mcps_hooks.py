@@ -1,7 +1,7 @@
 import pytest
 
-from rtkaiagents.factories.mcps_factory import MCPsFactory
-from rtkaiagents.factories.tools_factory import ToolsFactory
+from yaga.factories.mcps_factory import MCPsFactory
+from yaga.factories.tools_factory import ToolsFactory
 
 
 @pytest.mark.asyncio

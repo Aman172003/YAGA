@@ -2,11 +2,11 @@ from __future__ import annotations
 
 from typing import Any
 
-from rtkaiagents.factories.mcps_factory import MCPsFactory
-from rtkaiagents.factories.models_factory import ModelsFactory, RuntimeModel
-from rtkaiagents.factories.tools_factory import ToolsFactory
-from rtkaiagents.models import AgentConfig
-from rtkaiagents.utils import render_prompt
+from yaga.factories.mcps_factory import MCPsFactory
+from yaga.factories.models_factory import ModelsFactory, RuntimeModel
+from yaga.factories.tools_factory import ToolsFactory
+from yaga.models import AgentConfig
+from yaga.utils import render_prompt
 
 
 class RuntimeAgent:
