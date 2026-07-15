@@ -1,0 +1,11 @@
+graphs:
+  - name: "my_graph"
+    description: "A simple linear workflow"
+    nodes:
+      - name: "step1"
+        type: "agent"
+        agent_name: "my_agent"
+    edges:
+      - source: "step1"
+        target: "__end__"
+    start_node: "step1"
